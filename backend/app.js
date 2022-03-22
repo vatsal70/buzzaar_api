@@ -16,8 +16,8 @@ const seller = require("./routes/sellerRoute")
 
 app.use("/api/v1", product);
 app.use("/api/v1", user);
-app.use("/api/v1/", order);
-app.use("/api/v1/", seller);
+app.use("/api/v1", order);
+app.use("/api/v1", seller);
 
 //Middleware for Errors
 app.use(errorMiddleware);
