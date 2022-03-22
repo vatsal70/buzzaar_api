@@ -10,7 +10,7 @@ const { registerSeller,
         getAllSellers,
         getSingleSeller,
         updateSellerRole,
-        deleteSeller} = require("../controllers/SellerController");
+        deleteSeller} = require("../controllers/sellerController");
 
 
 const { isAuthenticatedUser, authorizeRole } = require("../middleware/auth");
